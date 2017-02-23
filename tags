@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AAfilledRoundedRect	objects/SudokuSquare.py	/^def AAfilledRoundedRect(surface,rect,color,radius=0.4):$/;"	kind:function	line:5
+GameResources.py	objects/GameResources.py	1;"	kind:file	line:1
+PySudoku.py	PySudoku.py	1;"	kind:file	line:1
+SudokuSquare	PySudoku.py	/^import SudokuSquare$/;"	kind:namespace	line:3
+SudokuSquare	objects/SudokuSquare.py	/^class SudokuSquare:$/;"	kind:class	line:44
+SudokuSquare.py	objects/SudokuSquare.py	1;"	kind:file	line:1
+TestDiagonalSudoku	solution_test.py	/^class TestDiagonalSudoku(unittest.TestCase):$/;"	kind:class	line:80
+TestNakedTwins	solution_test.py	/^class TestNakedTwins(unittest.TestCase):$/;"	kind:class	line:5
+__init__	objects/SudokuSquare.py	/^    def __init__(self, number=None, offsetX=0, offsetY=0, edit="Y", xLoc=0, yLoc=0):$/;"	kind:member	line:46
+__init__.py	objects/__init__.py	1;"	kind:file	line:1
+assign_value	solution.py	/^def assign_value(values, box, value):$/;"	kind:function	line:7
+assignments	solution.py	/^assignments = []$/;"	kind:variable	line:2
+before_naked_twins_1	solution_test.py	/^    before_naked_twins_1 = {'I6': '4', 'H9': '3', 'I2': '6', 'E8': '1', 'H3': '5', 'H7': '8', 'I7': '1', 'I4': '8',$/;"	kind:variable	line:6
+before_naked_twins_2	solution_test.py	/^    before_naked_twins_2 = {'A1': '23', 'A2': '4', 'A3': '7', 'A4': '6', 'A5': '8', 'A6': '5', 'A7': '23', 'A8': '9',$/;"	kind:variable	line:38
+boxes	solution.py	/^boxes = cross(rows, cols)$/;"	kind:variable	line:267
+change	objects/SudokuSquare.py	/^    def change(self, number):$/;"	kind:member	line:100
+checkCollide	objects/SudokuSquare.py	/^    def checkCollide(self, collision):$/;"	kind:member	line:81
+cols	solution.py	/^cols = '123456789'$/;"	kind:variable	line:264
+column_units	solution.py	/^column_units = [cross(rows, c) for c in cols]$/;"	kind:variable	line:271
+cross	solution.py	/^def cross(A, B):$/;"	kind:function	line:64
+currentLoc	objects/SudokuSquare.py	/^    def currentLoc(self):$/;"	kind:member	line:114
+diagonal_grid	solution_test.py	/^    diagonal_grid = '2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3'$/;"	kind:variable	line:81
+digits	PySudoku.py	/^digits = '123456789'$/;"	kind:variable	line:6
+display	solution.py	/^def display(values):$/;"	kind:function	line:94
+draw	objects/SudokuSquare.py	/^    def draw(self):$/;"	kind:member	line:73
+eliminate	solution.py	/^def eliminate(values):$/;"	kind:function	line:110
+grid_values	solution.py	/^def grid_values(grid):$/;"	kind:function	line:69
+highlight	objects/SudokuSquare.py	/^    def highlight(self):$/;"	kind:member	line:90
+load_image	objects/GameResources.py	/^def load_image(name):$/;"	kind:function	line:3
+lower_diag_units	solution.py	/^lower_diag_units = [boxes[8:-1:8]]$/;"	kind:variable	line:275
+naked_twins	solution.py	/^def naked_twins(values):$/;"	kind:function	line:18
+only_choice	solution.py	/^def only_choice(values):$/;"	kind:function	line:149
+os	PySudoku.py	/^import sys, os, random, pygame$/;"	kind:namespace	line:1
+os	objects/GameResources.py	/^import os, pygame$/;"	kind:namespace	line:1
+peers	solution.py	/^peers = dict((s, set(sum(units[s], [])) - set([s])) for s in boxes)$/;"	kind:variable	line:283
+play	PySudoku.py	/^def play(values_list):$/;"	kind:function	line:10
+play	visualize.py	/^from PySudoku import play$/;"	kind:namespace	line:1
+possible_solutions_1	solution_test.py	/^    possible_solutions_1 = [$/;"	kind:variable	line:17
+possible_solutions_2	solution_test.py	/^    possible_solutions_2 = [$/;"	kind:variable	line:49
+pygame	PySudoku.py	/^import sys, os, random, pygame$/;"	kind:namespace	line:1
+pygame	objects/GameResources.py	/^import os, pygame$/;"	kind:namespace	line:1
+pygame	objects/SudokuSquare.py	/^import pygame$/;"	kind:namespace	line:1
+random	PySudoku.py	/^import sys, os, random, pygame$/;"	kind:namespace	line:1
+reduce_puzzle	solution.py	/^def reduce_puzzle(values):$/;"	kind:function	line:178
+row_units	solution.py	/^row_units = [cross(r, cols) for r in rows]$/;"	kind:variable	line:270
+rows	PySudoku.py	/^rows = 'ABCDEFGHI'$/;"	kind:variable	line:7
+rows	solution.py	/^rows = 'ABCDEFGHI'$/;"	kind:variable	line:263
+search	solution.py	/^def search(values):$/;"	kind:function	line:206
+solution	solution_test.py	/^import solution$/;"	kind:namespace	line:1
+solution.py	solution.py	1;"	kind:file	line:1
+solution_test.py	solution_test.py	1;"	kind:file	line:1
+solve	solution.py	/^def solve(grid):$/;"	kind:function	line:247
+solved_diag_sudoku	solution_test.py	/^    solved_diag_sudoku = {'G7': '8', 'G6': '9', 'G5': '7', 'G4': '3', 'G3': '2', 'G2': '4', 'G1': '6', 'G9': '5',$/;"	kind:variable	line:82
+square_units	solution.py	/^square_units = [cross(rs, cs) for rs in ('ABC', 'DEF', 'GHI')$/;"	kind:variable	line:272
+sys	PySudoku.py	/^import sys, os, random, pygame$/;"	kind:namespace	line:1
+test_naked_twins	solution_test.py	/^    def test_naked_twins(self):$/;"	kind:member	line:70
+test_naked_twins2	solution_test.py	/^    def test_naked_twins2(self):$/;"	kind:member	line:74
+test_solve	solution_test.py	/^    def test_solve(self):$/;"	kind:member	line:94
+unhighlight	objects/SudokuSquare.py	/^    def unhighlight(self):$/;"	kind:member	line:95
+unitlist	solution.py	/^    square_units + upper_diag_units + lower_diag_units$/;"	kind:variable	line:279
+units	solution.py	/^units = dict((s, [u for u in unitlist if s in u]) for s in boxes)$/;"	kind:variable	line:282
+unittest	solution_test.py	/^import unittest$/;"	kind:namespace	line:2
+upper_diag_units	solution.py	/^upper_diag_units = [boxes[0::10]]$/;"	kind:variable	line:274
+visualize.py	visualize.py	1;"	kind:file	line:1
+visualize_assignments	solution.py	/^        from visualize import visualize_assignments$/;"	kind:namespace	line:291
+visualize_assignments	visualize.py	/^def visualize_assignments(assignments):$/;"	kind:function	line:3
